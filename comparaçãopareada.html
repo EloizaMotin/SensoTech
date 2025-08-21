@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="testetriangular.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="menu">
+            <div>
+                <img src="img/logosensotech.png" alt="Logo SensoTech">
+            </div>
+            <div class="perfil">
+                <img src="img/perfil.pnj.png" alt="Foto de Perfil">
+                <a href="inicio.html"><h2>Dados Pessoais</h2></a>
+            </div>
+            <div class="margem">
+                <h2 class="padrao">+ Criar sala</h2>
+
+                <h3 class="ex">Testes Discriminativos</h3>
+                <ul class="ul">
+                    <li><a href="testetriangular.html">Triangular</a></li>
+                    <li><a href="testeduotrio.html">Duo-Trio</a></li>
+                    <li><a href="testedeordenacao.html">Ordenação</a></li>
+                    <li><a href="comparaçãopareada.html">Comparação Pareada</a></li>
+                </ul>
+
+                <h3>Testes Descritivos</h3>
+                <ul class="ul">
+                    <li><a href="">Sabor e Textura</a></li>
+                    <li><a href="">Quantitativa (ADQ)</a></li>
+                    <li><a href="">Perfil Livre</a></li>
+                    <li><a href="">Tempo-Intensidade</a></li>
+                </ul>
+
+                <h3>Testes Afetivos</h3>
+                <ul class="ul">
+                    <li><a href="testedeaceitação.html">Aceitação</a></li>
+                    <li><a href="testepreferencia.html">Preferência</a></li>
+                </ul>
+
+                <h2 class="padrao">Salas Criadas</h2>
+                <ul class="ul">
+                    <li class="ex">
+                        <a href="analise.sucodeuva.html">
+                            <p>
+                                Nome: Análise de Suco de Uva<br>
+                                Tipo: Teste Triangular<br>
+                                Código: 123
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="analisesucodelaranja.html">
+                            <p>Nome: Análise de Suco de Laranja<br>
+                                Tipo: Teste Triangular<br>
+                                Código: 456
+                            </p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="analisesucodemaça.html">
+                            <p>
+                                Nome: Análise de Suco de Maçã
+                                <br>Tipo: Teste Duo-Trio
+                                <br>Código: 789
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <a href="index.html"><button class="button">Sair</button></a>
+        </div>
+
+        <div class="corpo">
+            <h1 id="bem">Criando análise de Comparação Pareada</h1>
+            <h2 id="centralizar">
+                <input type="text" name="cod" placeholder="Crie um Código">
+            </h2>
+
+            <div class="box">
+                <div class="dados">
+                    <form action="inicio.html" method="GET">
+                        <div class="titulo" style="display:flex; justify-content:center;">
+                            <label for="titulo"></label>
+                            <input class="titulo" type="text" name="titulo" placeholder="Título do teste">
+                        </div>
+
+                        <div class="p">
+                            <div class="alinhar">
+                                <label for="nome">Nome: </label>
+                                <input id="name" type="text" name="nome">
+
+                                <label for="idade">Data:</label>
+                                <input id="data" type="date" name="data">
+
+                                <label for="numero">Número do provador: </label>
+                                <input id="num" type="number" name="numero">
+                            </div>
+
+                            <div class="alinhar2">
+    <p style="text-align: center;">
+        Avalie as duas amostras codificadas e assinale a amostra
+                                <input class="text" type="text" name="tipo" placeholder="Você escolhe">.
+    </p>
+</div>
+                    
+
+                        <div class="linha">
+                            <div class="gap">
+                                <p>Amostras</p>
+                                <input type="number" name="cod"><br>
+                                <input type="number" name="cod"><br>
+                            </div>
+                            <div class="gap2">
+                                <p>Assinale a amostra</p>
+                                <input type="checkbox" name="anl"><br>
+                                <input type="checkbox" name="anl"><br>
+                            </div>
+                        </div>
+
+                        <div class="comentarios">
+                            <label for="observacao">Comentários</label><br>
+                            <textarea id="comentario" name="observacao"></textarea><br>
+                        </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <div id="enviar">
+                <input type="submit" value="Enviar">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

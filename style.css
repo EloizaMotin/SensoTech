@@ -1,0 +1,80 @@
+body {
+  background-color: #1c1c1c;
+  text-align: center;
+  font-family: "Google Sans Code", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+button, #enviar {
+  background-color: #8c52ff;
+  color: white;
+  padding: 8px 16px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+  font-family: "Google Sans Code", monospace;
+}
+
+button:hover, #enviar:hover {
+  transform: scale(1.05);
+  background-color: #7a46e0;
+}
+
+.buttons {
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+}
+img {
+    width: 200px;
+    padding: 35px;
+
+}
+.form {
+    background-color: #121212;
+    color: white;
+    font-size: 20px;
+    margin: auto;
+    width: 254px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(140, 82, 255, 0.4)
+}
+label{
+  padding: 5px;
+  margin: 0 auto -30px auto; 
+  display: block;           
+  text-align: center;       
+
+}
+.filhoform {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.pailogo {
+  display: flex;
+  flex-direction: column;
+  margin-top: 95px;
+}   
+#enviar {
+  width: 120px;
+  margin: -20px auto 0 auto;
+  font-family: 'Patrick Hand', cursive;
+}
+#cod{
+    width: 200px;
+    height: 23px;
+    margin:auto;
+    border-radius: 15px;
+}
+.buttons {
+  padding: 15px;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  
+}
