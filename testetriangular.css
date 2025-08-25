@@ -353,6 +353,7 @@ textarea {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    FLEX-DIRECTION: COLUMN;
 }
 
 .img img {
@@ -389,4 +390,5 @@ textarea {
     flex-direction: column;
     gap: 5px;
     border: none;
+
 }
